@@ -2,7 +2,26 @@ import './Resume.css';
 import { useTranslation } from 'react-i18next';
 
 const Resume = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // 根据当前语言获取PDF文件路径
+  const getResumeUrl = () => {
+    const basePath = import.meta.env.BASE_URL || '/';
+    const fileName = i18n.language === 'zh' ? 'CV_cn.pdf' : 'CV_en.pdf';
+    return `${basePath}cv/${fileName}`;
+  };
+
+  // 处理PDF下载
+  const handleDownload = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const url = getResumeUrl();
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `Haochen_Hou_Resume_${i18n.language === 'zh' ? 'CN' : 'EN'}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section className="resume">
@@ -12,12 +31,9 @@ const Resume = () => {
         <div className="resume-content">
           <div className="resume-header">
             <a 
-              href="/resume.pdf" 
+              href={getResumeUrl()}
               className="download-btn"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('In a real implementation, this would download the resume PDF');
-              }}
+              onClick={handleDownload}
             >
               {t('resume.download')}
             </a>
