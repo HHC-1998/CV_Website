@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "resume": "简历",
+    "contact": "联系方式"
+  },
+  "home": {
+    "title": "侯昊辰",
+    "subtitle": "AI/机器学习工程师 & 全栈开发工程师",
+    "positioning": "寻求AI/机器学习工程师或全栈开发工程师职位",
+    "tags": ["AI/机器学习", "全栈开发", "数据分析", "大语言模型"],
+    "welcome": "欢迎访问我的个人作品集网站",
+    "description": "人工智能与商业分析硕士，具备扎实的全栈开发能力，精通AI技术包括大语言模型、RAG和AI智能体。"
+  },
+  "about": {
+    "title": "关于我",
+    "intro": "我是香港岭南大学人工智能与商业分析专业的硕士研究生，拥有加拿大卡尔顿大学计算机科学（软件工程方向）学士学位。我具备扎实的全栈开发基础，并专注于AI技术，包括大语言模型、RAG和AI智能体。",
+    "education": {
+      "title": "教育背景",
+      "ms": {
+        "degree": "人工智能与商业分析理学硕士",
+        "school": "香港岭南大学",
+        "period": "2025年9月 – 2026年6月",
+        "gpa": "GPA: 3.53/4"
+      },
+      "bs": {
+        "degree": "计算机科学学士（软件工程方向）",
+        "school": "加拿大卡尔顿大学，渥太华"
+      }
+    },
+    "strengths": {
+      "title": "优势与专注领域",
+      "items": [
+        "使用现代框架进行全栈开发",
+        "AI/机器学习工程和大语言模型应用",
+        "数据分析、可视化和商业智能",
+        "企业级应用开发和优化"
+      ]
+    }
+  },
+  "skills": {
+    "title": "技能",
+    "technical": {
+      "title": "技术技能",
+      "items": ["Python", "Java", "JavaScript", "SQL", "C/C++", "React.js", "Vue.js", "Spring Boot", "FastAPI"]
+    },
+    "ai": {
+      "title": "AI与大模型",
+      "items": ["机器学习", "深度学习", "大语言模型", "提示词工程", "模型微调", "RAG", "AI智能体", "模型压缩"]
+    },
+    "tools": {
+      "title": "工具与框架",
+      "items": ["Docker", "Git", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Tableau", "JUnit", "Selenium"]
+    },
+    "business": {
+      "title": "商业技能",
+      "items": ["问题界定", "A/B测试", "指标分析", "报告/故事讲述", "数据驱动决策"]
+    }
+  },
+  "projects": {
+    "title": "项目",
+    "gaitgpt": {
+      "title": "GaitGPT - AI步态分析系统",
+      "period": "2026年1月 – 至今",
+      "problem": "为医疗步态评估场景开发智能步态分析系统，使康复治疗师等非技术用户能够进行步态分析。",
+      "data": "步态分析的文本和视频输入，集成医学知识库",
+      "approach": "构建基于GPT的系统，包含定制提示词工程、RAG流程和智能体工作流控制",
+      "outcome": "实现文本/视频到步态洞察的转换、报告生成和长期记忆存储",
+      "contribution": "全栈开发，包括提示词工程、后端API和系统集成",
+      "link": "https://github.com/GaitGPT/GaitGPT"
+    },
+    "srr": {
+      "title": "SRR智能体案例处理系统",
+      "period": "2025年12月 – 2026年1月",
+      "problem": "领导工程领域企业级AI处理系统开发，实现多源文档解析和任务路由自动化。",
+      "data": "工程文档、地理/气象数据、边坡管理数据",
+      "approach": "构建带向量数据库的RAG流程，集成外部API，设计AI智能体调度逻辑",
+      "outcome": "实现智能任务路由和标准化输出的工程数据处理自动化",
+      "contribution": "核心开发，包括RAG流程、智能体逻辑和三级记忆系统",
+      "link": "https://github.com/SRR-Project-Team/SRR-Agentic-Case-Processing-System"
+    },
+    "game": {
+      "title": "多人在线网页游戏",
+      "period": "2023年5月 – 2023年7月",
+      "problem": "开发实时多人在线网页游戏，通过互动游戏体验增强用户参与度。",
+      "data": "游戏状态数据、玩家互动、实时通信",
+      "approach": "Spring Boot后端集成WebSocket，响应式前端使用Bootstrap",
+      "outcome": "功能完善的2-4人实时游戏，用户体验流畅",
+      "contribution": "全栈开发，包括游戏逻辑、实时通信和用户界面",
+      "link": "自由职业项目"
+    }
+  },
+  "resume": {
+    "title": "简历 / CV",
+    "download": "下载简历 (PDF)",
+    "summary": "专业概述",
+    "summaryText": "人工智能与商业分析硕士，精通全栈开发和AI技术。具有构建企业级应用和在商业场景中实施AI解决方案的经验。",
+    "experience": "项目经验",
+    "education": "教育背景",
+    "languages": "语言能力：英语（流利）、普通话（流利）、粤语（学习中）"
+  },
+  "contact": {
+    "title": "联系方式",
+    "email": "邮箱",
+    "phone": "电话",
+    "address": "地址",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "getInTouch": "联系我",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "消息",
+      "send": "发送消息"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 侯昊辰。保留所有权利。",
+    "builtWith": "使用 React & Vite 构建"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}

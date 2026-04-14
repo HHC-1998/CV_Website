@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Haochen Hou",
+    "subtitle": "AI/ML Engineer & Full Stack Developer",
+    "positioning": "Seeking AI/Machine Learning Engineer or Full Stack Developer position",
+    "tags": ["AI/ML", "Full Stack Development", "Data Analysis", "Large Language Models"],
+    "welcome": "Welcome to my personal portfolio website",
+    "description": "Master's student in AI & Business Analytics with solid foundation in full-stack development and expertise in AI technologies including LLMs, RAG, and AI Agents."
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I am a Master's student in Artificial Intelligence and Business Analytics at Lingnan University, Hong Kong, with a Bachelor's degree in Computer Science (Software Engineering) from Carleton University, Canada. I have a solid foundation in full-stack development and specialize in AI technologies including large language models, RAG, and AI Agents.",
+    "education": {
+      "title": "Education",
+      "ms": {
+        "degree": "Master of Science in Artificial Intelligence and Business Analytics",
+        "school": "Lingnan University, Hong Kong",
+        "period": "Sep 2025 – Jun 2026",
+        "gpa": "GPA: 3.53/4"
+      },
+      "bs": {
+        "degree": "Bachelor of Computer Science (Software Engineering Stream)",
+        "school": "Carleton University, Ottawa, Canada"
+      }
+    },
+    "strengths": {
+      "title": "Strengths & Focus Areas",
+      "items": [
+        "Full-stack development with modern frameworks",
+        "AI/ML engineering and large language model applications",
+        "Data analysis, visualization, and business intelligence",
+        "Enterprise application development and optimization"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": {
+      "title": "Technical Skills",
+      "items": ["Python", "Java", "JavaScript", "SQL", "C/C++", "React.js", "Vue.js", "Spring Boot", "FastAPI"]
+    },
+    "ai": {
+      "title": "AI & Large Models",
+      "items": ["Machine Learning", "Deep Learning", "LLM", "Prompt Engineering", "Model Fine-tuning", "RAG", "AI Agent", "Model Compression"]
+    },
+    "tools": {
+      "title": "Tools & Frameworks",
+      "items": ["Docker", "Git", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Tableau", "JUnit", "Selenium"]
+    },
+    "business": {
+      "title": "Business Skills",
+      "items": ["Problem Framing", "A/B Testing", "Metrics Analysis", "Reporting/Storytelling", "Data-driven Decision Making"]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "gaitgpt": {
+      "title": "GaitGPT - AI-Powered Gait Analysis System",
+      "period": "Jan 2026 – Present",
+      "problem": "Developed an intelligent gait analysis system for medical assessment scenarios to make gait analysis accessible to non-technical users like rehabilitation therapists.",
+      "data": "Text and video inputs for gait analysis, integrated with medical knowledge base",
+      "approach": "Built GPT-based system with custom prompt engineering, RAG pipeline, and agent workflow control",
+      "outcome": "Enabled conversion of text/video to gait insights, report generation, and long-term memory storage",
+      "contribution": "Full-stack development including prompt engineering, backend API, and system integration",
+      "link": "https://github.com/GaitGPT/GaitGPT"
+    },
+    "srr": {
+      "title": "SRR Agentic Case Processing System",
+      "period": "Dec 2025 – Jan 2026",
+      "problem": "Led development of enterprise-level AI processing system for engineering domain to automate multi-source document parsing and task routing.",
+      "data": "Engineering documents, geographic/meteorological data, slope management data",
+      "approach": "Built RAG pipeline with vector databases, integrated external APIs, designed AI Agent scheduling logic",
+      "outcome": "Automated engineering data processing with intelligent task routing and standardized output",
+      "contribution": "Core development including RAG pipeline, agent logic, and three-tier memory system",
+      "link": "https://github.com/SRR-Project-Team/SRR-Agentic-Case-Processing-System"
+    },
+    "game": {
+      "title": "Multiplayer Online Web Game",
+      "period": "May 2023 – Jul 2023",
+      "problem": "Developed real-time multiplayer web game to enhance user engagement through interactive gameplay.",
+      "data": "Game state data, player interactions, real-time communication",
+      "approach": "Spring Boot backend with WebSocket integration, responsive frontend with Bootstrap",
+      "outcome": "Functional 2-4 player real-time game with smooth user experience",
+      "contribution": "Full-stack development including game logic, real-time communication, and UI",
+      "link": "Freelance project"
+    }
+  },
+  "resume": {
+    "title": "Resume / CV",
+    "download": "Download Resume (PDF)",
+    "summary": "Professional Summary",
+    "summaryText": "Master's student in AI & Business Analytics with expertise in full-stack development and AI technologies. Experienced in building enterprise applications and implementing AI solutions in business scenarios.",
+    "experience": "Project Experience",
+    "education": "Education",
+    "languages": "Languages: English (Fluent), Mandarin (Fluent), Cantonese (Learning)"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "getInTouch": "Get in Touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Haochen Hou. All rights reserved.",
+    "builtWith": "Built with React & Vite"
+  },
+  "language": {
+    "en": "English",
+    "zh": "中文"
+  }
+}
