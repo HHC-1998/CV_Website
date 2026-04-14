@@ -6,13 +6,12 @@ const Resume = () => {
 
   // 根据当前语言获取PDF文件路径
   const getResumeUrl = () => {
-    const basePath = import.meta.env.BASE_URL || '/';
     const fileName = i18n.language === 'zh' ? 'CV_cn.pdf' : 'CV_en.pdf';
-    return `${basePath}cv/${fileName}`;
+    return `/cv/${fileName}`;
   };
 
   // 处理PDF下载
-  const handleDownload = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleDownload = (e: any) => {
     e.preventDefault();
     const url = getResumeUrl();
     const link = document.createElement('a');
